@@ -20,7 +20,10 @@ const overcraft = new Overcraft(client);
 var generalListener = new Responder(client);
 
 generalListener.addListener("say hi boost-o", function(e) {
-    e.message.channel.sendMessage("Hi BOOST-O.");
+    if(Math.random() >= 0.9)
+        e.message.channel.sendMessage("No.");
+    else
+        e.message.channel.sendMessage("Hi BOOST-O.");
 });
 
 generalListener.addListener("fuck you", function(e) {
