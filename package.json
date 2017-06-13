@@ -1,0 +1,26 @@
+{
+  "name": "boost-o-bot",
+  "version": "0.0.1",
+  "description": "A silly discord bot to add some whimsy to everyone's life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbekFrostblade/BOOST-o-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Brad \"Ebek Frostblade\" Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EbekFrostblade/BOOST-o-bot/issues"
+  },
+  "homepage": "https://github.com/EbekFrostblade/BOOST-o-bot#readme",
+  "dependencies": {
+    "discordie": "github:qeled/discordie"
+  }
+}
